@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body class="font-inter">
+    <header class="bg-white text-gray-800 shadow-md">
+        <div class="container flex justify-between items-center py-4 px-40">
+          <!-- Logo -->
+          <img src="./img/Logo.png" alt="Logo" class="w-16 cursor-pointer">
+          
+          <!-- Search Bar -->
+          <div class="flex-1 mx-8">
+            <div class="relative">
+              <input type="text" placeholder="Search" class="w-full py-2 px-9 bg-gray-100 rounded-md shadow-md focus:ring-2 focus:ring-black">
+           
+              <i class="fas fa-search absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"></i>
+            </div>
+          </div>
+          
+          <!-- Navigation -->
+          <nav>
+            <ul class="flex space-x-12">
+              <li><a href="#" class="text-black hover:text-black">Home</a></li>
+              <li><a href="#" class="text-gray-500 hover:text-black">About</a></li>
+              <li><a href="#" class="text-gray-500 hover:text-black">Contact Us</a></li>
+              <li><a href="#" class="text-gray-500 hover:text-black">Blog</a></li>
+            </ul>
+          </nav>
+          
+          <!-- Icons -->
+          <div class="flex space-x-6 items-center pl-8">
+            <a href="#" target="_blank" class="cursor-pointer">
+              <img class="w-7 transition-transform duration-300 ease-in-out transform hover:scale-110" src="./img/Favorites.png" alt="Favorites">
+            </a>
+            <a href="#" target="_blank" class="cursor-pointer">
+              <img class="w-7 transition-transform duration-300 ease-in-out transform hover:scale-110" src="./img/Cart1.png" alt="Cart">
+            </a>
+            <a href="#" target="_blank" class="cursor-pointer">
+              <img class="w-4 transition-transform duration-300 ease-in-out transform hover:scale-110" src="./img/Vector.png" alt="Vector">
+            </a>
+          </div>
+        </div>
+      </header>
+    
+
+ <!-- Hero Section -->
+ <div class="bg-gray-900 text-white h-screen flex items-center">
+  <div class="container mx-auto h-full flex items-center justify-between p-8 md:p-16">
+      <!-- Text Content Section -->
+      <div class="ml-28">
+          <h2 class="text-sm md:text-lg text-gray-400 uppercase mb-2">Pro.Beyond.</h2>
+          <h1 class="text-4xl md:text-7xl font-thin mb-4">IPhone 14 <span class="font-bold">Pro</span></h1>
+          <p class="text-lg md:text-sm mb-6 text-gray-400">Created to change everything for the better. For everyone.</p>
+          <a href="#" class="inline-block bg-transparent border border-white text-white py-2 px-6 rounded hover:bg-white hover:text-black transition">
+              Shop Now
+          </a>
+      </div>
+
+      <!-- Image Section -->
+      <div class="">
+          <img src="./img/Iphone Image.png" alt="iPhone 14 Pro" class="w-10/12 mt-14">
+      </div>
+  </div>
+</div>
+    
+    
+    <div class="bg-white ">
+        <div class="container grid grid-cols-2 gap-0">
+          <div class="bg-gray-100 flex items-center justify-between">
+            <img class="w-3/11" src="./img/PlayStation.png" alt="Playstation 5"> 
+            <div class="w-1/2 text-start pr-8">
+           <h2 class="text-4xl font-medium mt-4">Playstation 5</h2>
+            <p class="text-gray-600 mt-2 text-sm">Incredibly powerful CPUs, GPUs, and an SSD...</p>
+         </div> </div>
+          <div class="bg-gray-200 row-span-4 flex items-center justify-between">
+            <div class="w-1/2 text-start pl-9">
+            <h2 class="text-5xl font-thin mt-4">Macbook <br><span class="font-bold">Air</span></h2>
+            <p class="text-gray-600 mt-2">The new 15-inch MacBook Air...</p>
+                   <a href="#" class="inline-block mt-4 bg-transparent border border-black text-black py-2 px-4 rounded">Shop Now</a>
+                </div>        
+                   <img class="w-1/2 h-auto" src="./img/MacBook Pro 14.png" alt="Macbook Air"> 
+        </div>
+        
+        <div class="container mx-auto grid grid-cols-2 gap-0">
+          <div class="bg-gray-200 flex items-center justify-between ">
+            <img class="w-1/3" src="./img/hero__gnfk5g59t0qe_xlarge_2x 1.png" alt="Apple AirPods Max">
+            <div class="w-1/2 text-start pr-9">
+            <h2 class="text-4xl font-thin mt-2">Apple AirPods <span class="font-bold">Max</span></h2>
+            <p class="text-gray-600 text-sm">Computational audio...</p>
+          </div></div>
+          <div class="bg-gray-800 text-white flex items-center justify-between ">
+            <img src="./img/image 36.png" alt="Apple Vision Pro">
+            <div class="w-1/2 text-start pr-9">
+            <h2 class="text-4xl font-thin mt-2">Apple Vision <span class="font-bold">Pro</span></h2>
+            <p class="text-gray-300 text-sm">An immersive way to...</p>
+          </div></div>
+        </div>
+    </div>
+    </div>
+
+      <div class=" pl-52 mt-9 mb-8">
+        <h2 class="text-xl font-bold">Browse By Category</h2>
+      </div>
+      <div class="flex items-center justify-center space-x-4 mb-8">
+       
+        <div class="flex flex-col items-center justify-center bg-gray-100 p-4 rounded-md w-32 cursor-pointer transition-transform duration-300 ease-in-out transform hover:scale-110">
+            <img src="./img/Phones.png" alt="Phones" class="w-8 h-8">
+          <p class="mt-2 text-sm hover:none">Phones</p>
+       </div>
+        
+        <div class="flex flex-col items-center justify-center bg-gray-100 p-4 rounded-md w-32 cursor-pointer transition-transform duration-300 ease-in-out transform hover:scale-110">
+          <img src="./img/Smart Watches.png" alt="Cameras" class="w-8 h-8">
+          <p class="mt-2 text-sm">Smart Watch</p>
+        </div>
+        <div class="flex flex-col items-center justify-center bg-gray-100 p-4 rounded-md w-32 cursor-pointer transition-transform duration-300 ease-in-out transform hover:scale-110">
+          <img src="./img/Cameras.png" alt="Cameras" class="w-8 h-8">
+          <p class="mt-2 text-sm">Cameras</p>
+        </div>
+        <div class="flex flex-col items-center justify-center bg-gray-100 p-4 rounded-md w-32   cursor-pointer transition-transform duration-300 ease-in-out transform hover:scale-110">
+          <img src="./img/Headphones.png" alt="Headphones" class="w-8 h-8">
+          <p class="mt-2 text-sm">Headphones</p>
+        </div>
+        <div class="flex flex-col items-center justify-center bg-gray-100 p-4 rounded-md w-32 cursor-pointer transition-transform duration-300 ease-in-out transform hover:scale-110">
+          <img src="./img/Computers.png" alt="Headphones" class="w-8 h-8">
+          <p class="mt-2 text-sm">Computers</p>
+        </div>
+       
+        <div class="flex flex-col items-center justify-center bg-gray-100 p-4 rounded-md w-32 cursor-pointer transition-transform duration-300 ease-in-out transform hover:scale-110">
+          <img src="./img/Gaming.png" alt="Gaming" class="w-8 h-8">
+          <p class="mt-2 text-sm">Gaming</p>
+        </div>
+      </div>
+      <!-- items -->
+       <div class="bg-white py-8">
+        <div class="container pl-52 pr-52">
+            <ul class="flex justify-start space-x-8 mb-6">
+                <li class="border-b-2 border-black py-2">New Arrival</li>
+                <li class="py-2">Bestseller</li>
+                <li class="py-2">Featured Products</li>
+            </ul>
+          
+              <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 ">
+                <!-- Card 1 -->
+                <div class="relative bg-white p-4 rounded-md shadow-md">
+                  <a href="#" class="absolute top-1 right-2">
+                    <img src="./img/Like.png" alt="noimg" class="w-6">
+                  </a>
+                  <img src="./img/Iphone 14 pro 1.png" alt="Apple iPhone 14 Pro Max 128GB Deep Purple" class="w-full h-auto">
+                  <p class="text-center text-sm mt-2">Apple iPhone 14 Pro Max 128GB Deep Purple</p>
+                  <p class="text-center text-lg font-semibold mt-2">$900</p>
+                  <button class="mt-4 w-full bg-black text-white py-2 rounded-md hover:bg-gray-800">
+                    Buy Now
+                  </button>
+                </div>
+                <!-- Card 2 -->
+                <div class="relative bg-white p-4 rounded-md shadow-md">
+                  <a href="#" class="absolute top-1 right-2">
+                    <img src="./img/Like.png" alt="noimg" class="w-6">
+                  </a>
+                  <img src="./img/products/Iphone 14 pro 1 (1).png" alt="Blackmagic Pocket Cinema Camera 6k" class="w-full h-auto">
+                  <p class="text-center text-sm mt-2">Blackmagic Pocket Cinema Camera 6k</p>
+                  <p class="text-center text-lg font-semibold mt-2">3253</p>
+                  <button class="mt-4 w-full bg-black text-white py-2 rounded-md hover:bg-gray-800">
+                    Buy Now
+                  </button>
+                </div>
+                <div class="relative bg-white p-4 rounded-md shadow-md">
+                  <a href="#" class="absolute top-1 right-2">
+                    <img src="./img/Like.png" alt="noimg" class="w-6">
+                  </a>
+                    
+                  <img src="./img/products/Iphone 14 pro 1 (2).png" alt="Blackmagic Pocket Cinema Camera 6k" class="w-full h-auto">
+                  <p class="text-center text-sm mt-2">Blackmagic Pocket Cinema Camera 6k</p>
+                  <p class="text-center text-lg font-semibold mt-2">$535</p>
+                  <button class="mt-4 w-full bg-black text-white py-2 rounded-md hover:bg-gray-800">
+                    Buy Now
+                  </button>
+                </div>
+                <div class="relative bg-white p-4 rounded-md shadow-md">
+                  <a href="#" class="absolute top-1 right-2">
+                    <img src="./img/Like.png" alt="noimg" class="w-6">
+                  </a>
+                  <img src="./img/products/Iphone 14 pro 1 (3).png" alt="Blackmagic Pocket Cinema Camera 6k" class="w-full h-auto">
+                  <p class="text-center text-sm mt-2">Blackmagic Pocket Cinema Camera 6k</p>
+                  <p class="text-center text-lg font-semibold mt-2">$235</p>
+                  <button class="mt-4 w-full bg-black text-white py-2 rounded-md hover:bg-gray-800">
+                    Buy Now
+                  </button>
+                </div>
+                <div class="relative bg-white p-4 rounded-md shadow-md">
+                  <a href="#" class="absolute top-1 right-2">
+                    <img src="./img/Like.png" alt="noimg" class="w-6">
+                  </a>
+                  <img src="./img/products/Iphone 14 pro 1 (4).png" alt="Blackmagic Pocket Cinema Camera 6k" class="w-full h-auto">
+                  <p class="text-center text-sm mt-2">Blackmagic Pocket Cinema Camera 6k</p>
+                  <p class="text-center text-lg font-semibold mt-2">$535</p>
+                  <button class="mt-4 w-full bg-black text-white py-2 rounded-md hover:bg-gray-800">
+                    Buy Now
+                  </button>
+                </div>
+                <div class="relative bg-white p-4 rounded-md shadow-md">
+                  <a href="#" class="absolute top-1 right-2">
+                    <img src="./img/Like.png" alt="noimg" class="w-6">
+                  </a>
+                 
+                  </button>
+                  <img src="./img/products/Iphone 14 pro 1 (5).png" alt="Blackmagic Pocket Cinema Camera 6k" class="w-full h-auto">
+                  <p class="text-center text-sm mt-2">Blackmagic Pocket Cinema Camera 6k</p>
+                  <p class="text-center text-lg font-semibold mt-2">$2535</p>
+                  <button class="mt-4 w-full bg-black text-white py-2 rounded-md hover:bg-gray-800">
+                    Buy Now
+                  </button>
+                </div>
+                <div class="relative bg-white p-4 rounded-md shadow-md">
+                  <a href="#" class="absolute top-1 right-2">
+                    <img src="./img/Like.png" alt="noimg" class="w-6">
+                  </a>
+                  <img src="./img/products/Iphone 14 pro 1 (6).png" alt="Blackmagic Pocket Cinema Camera 6k" class="w-full h-auto">
+                  <p class="text-center text-sm mt-2">Blackmagic Pocket Cinema Camera 6k</p>
+                  <p class="text-center text-lg font-semibold mt-2">$2535</p>
+                  <button class="mt-4 w-full bg-black text-white py-2 rounded-md hover:bg-gray-800">
+                    Buy Now
+                  </button>
+                </div>
+                <div class="relative bg-white p-4 rounded-md shadow-md">
+                  <a href="#" class="absolute top-1 right-2 ">
+                    <img src="./img/Like.png" alt="noimg" class="w-8 px-1">
+                  </a>
+                  <img src="./img/products/Iphone 14 pro 1 (7).png" alt="Blackmagic Pocket Cinema Camera 6k" class="w-36 h-auto mb-6">
+                  <p class="text-center text-sm mt-2">Blackmagic Pocket Cinema Camera 6k</p>
+                  <p class="text-center text-lg font-semibold mt-2">$2539</p>
+                  <button class="mt-4 w-full bg-black text-white py-2 rounded-md hover:bg-gray-800">
+                    Buy Now
+                  </button>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mx-auto py-8">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+        <!-- Card 1 -->
+        <div class="bg-white p-6 flex flex-col  items-start text-start">
+          <img src="./img/Group 1.png" alt="Popular Products" class="w-full">
+          <h2 class="text-xl font-semibold mb-2">Popular Products</h2>
+          <p class="text-gray-600 mb-4">iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.</p>
+          <button class="bg-transparent border border-black text-black py-2 px-4 rounded-md hover:bg-black hover:text-white">
+            Shop Now
+          </button>
+        </div>
+    
+        <!-- Card 2 -->
+        <div class="bg-gray-100 p-6 flex flex-col items-start text-start">
+          <img src="./img/grid/image 64.png" alt="iPad Pro" class="w-full mb-14">
+          <h2 class="text-xl font-semibold mb-2">iPad Pro</h2>
+          <p class="text-gray-600 mb-4">iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.</p>
+          <button class="bg-transparent border border-black text-black py-2 px-4 rounded-md hover:bg-black hover:text-white">
+            Shop Now
+          </button>
+        </div>
+    
+        <!-- Card 3 -->
+        <div class="bg-gray-200 p-6 flex flex-col items-start text-start">
+          <img src="./img/grid/image 41.png" alt="Samsung Galaxy" class="mb-14">
+          <h2 class="text-xl font-semibold mb-2">Samsung Galaxy</h2>
+          <p class="text-gray-600 mb-4">iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.</p>
+          <button class="bg-transparent border border-black text-black py-2 px-4 rounded-md hover:bg-white hover:text-black">
+            Shop Now
+          </button>
+        </div>
+    
+        <!-- Card 4 -->
+        <div class="bg-gray-900 text-white p-6 flex flex-col items-start text-start">
+          <img src="./img/grid/Macbook 1.png" alt="Macbook Pro" class="mb-11">
+          <h2 class="text-xl font-semibold mb-2">Macbook Pro</h2>
+          <p class="text-gray-300 mb-4">iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.</p>
+          <button class="bg-transparent border border-white text-white py-2 px-4 rounded-md hover:bg-white hover:text-black">
+            Shop Now
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- discount section -->
+    <div class="container pl-52 pr-52 py-10">
+      <div class="flex justify-start space-x-8 mb-9">
+          <h1 class="text-xl font-semibold mb-2">Discounts up to -50%</h1>
+      </div>   
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          <!-- Card 1 -->
+          <div class="relative bg-white p-4 rounded-md shadow-md">
+            <a href="#" class="absolute top-1 right-2">
+              <img src="./img/Like.png" alt="noimg" class="w-6">
+            </a>
+            <img src="./img/Iphone 14 pro 1.png" alt="Apple iPhone 14 Pro Max 128GB Deep Purple" class="w-full h-auto px-4">
+            <p class="text-center text-sm mt-2">Apple iPhone 14 Pro Max 128GB Deep Purple</p>
+            <p class="text-center text-lg font-semibold mt-2">$1437</p>
+            <button class="mt-4 w-full bg-black text-white py-2 rounded-md hover:bg-gray-800">
+              Buy Now
+            </button>
+          </div>
+          <div class="relative bg-white p-4 rounded-md shadow-md">
+            <a href="#" class="absolute top-1 right-2">
+              <img src="./img/Like.png" alt="noimg" class="w-6">
+            </a>
+            <img src="./img/Iphone 14 pro 1 (1).png" alt="Apple iPhone 14 Pro Max 128GB Deep Purple" class="w-full h-auto px-4">
+            <p class="text-center text-sm mt-2">Apple iPhone 14 Pro Max 128GB Deep Purple</p>
+            <p class="text-center text-lg font-semibold mt-2">$549</p>
+            <button class="mt-4 w-full bg-black text-white py-2 rounded-md hover:bg-gray-800">
+              Buy Now
+            </button>
+          </div>
+          <div class="relative bg-white p-4 rounded-md shadow-md">
+            <a href="#" class="absolute top-1 right-2">
+              <img src="./img/Like.png" alt="noimg" class="w-6">
+            </a>
+            <img src="./img/Iphone 14 pro 1 (2).png" alt="Apple iPhone 14 Pro Max 128GB Deep Purple" class="w-full h-auto px-4">
+            <p class="text-center text-sm mt-2">Apple iPhone 14 Pro Max 128GB Deep Purple</p>
+            <p class="text-center text-lg font-semibold mt-2">$399</p>
+            <button class="mt-4 w-full bg-black text-white py-2 rounded-md hover:bg-gray-800">
+              Buy Now
+            </button>
+          </div>
+          <div class="relative bg-white p-4 rounded-md shadow-md">
+            <a href="#" class="absolute top-1 right-2 group">
+                <img src="./img/Like.png" alt="noimg" class="w-6">
+          </a>
+          
+            </a>
+            <img src="./img/Iphone 14 pro 1 (3).png" alt="Apple iPhone 14 Pro Max 128GB Deep Purple" class="w-full h-auto px-4 ">
+            <p class="text-center text-sm mt-2">Apple iPhone 14 Pro Max 128GB Deep Purple</p>
+            <p class="text-center text-lg font-semibold mt-2">$1499</p>
+            <button class="mt-4 w-full bg-black text-white py-2 rounded-md hover:bg-gray-800">
+              Buy Now
+            </button>
+          </div>
+          
+        </div>
+    </div>
+    <div class="bg-auto bg-cover flex flex-col justify-center items-center" style="height: 70vh; background-image: url('./img/Banner\ 2\ \(1\).png');">     
+      <h1 class="text-white text-6xl font-thin mb-3">Big Summer <span class="font-bold">Sale</span></h1>  
+      <p class="text-lg md:text-sm text-gray-400 mb-6">Commodo fames vitae vitae leo mauris in. Eu consequat.</p>
+      <a href="#" class="inline-block bg-transparent border border-white text-white py-2 px-9 rounded hover:bg-white hover:text-black transition ">
+        Shop Now
+    </a>
+    </div>
+
+      <footer class="bg-black text-white py-20 pl-32 pr-32">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            
+            <!-- Column 1 -->
+            <div>
+             <img src="./img/Logo Vector.png" alt="" class="mb-6 mt-1">
+
+              <p class="text-sm mb-6">
+                We are a residential interior design firm located in Portland. Our boutique-studio offers more than
+              </p>
+              
+            </div>
+            
+            <!-- Column 2 -->
+            <div class="ml-4 mr-4">
+              <h3 class="text-xl font-bold mb-4">Services</h3>
+              <ul class="space-y-2 text-sm">
+                <li><a href="#" class="hover:text-gray-400">Bonus program</a></li>
+                <li><a href="#" class="hover:text-gray-400">Gift cards</a></li>
+                <li><a href="#" class="hover:text-gray-400">Credit and payment</a></li>
+                <li><a href="#" class="hover:text-gray-400">Service contracts</a></li>
+                <li><a href="#" class="hover:text-gray-400">Non-cash account</a></li>
+                <li><a href="#" class="hover:text-gray-400">Payment</a></li>
+              </ul>
+            </div>
+            
+            <!-- Column 3 -->
+            <div class="ml-4 mr-4">
+              <h3 class="text-xl font-bold mb-4">Assistance to the buyer</h3>
+              <ul class="space-y-2 text-sm">
+                <li><a href="#" class="hover:text-gray-400">Find an order</a></li>
+                <li><a href="#" class="hover:text-gray-400">Terms of delivery</a></li>
+                <li><a href="#" class="hover:text-gray-400">Exchange and return of goods</a></li>
+                <li><a href="#" class="hover:text-gray-400">Guarantee</a></li>
+                <li><a href="#" class="hover:text-gray-400">Frequently asked questions</a></li>
+                <li><a href="#" class="hover:text-gray-400">Terms of use of the site</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom Social Icons -->
+        <div class="flex mt-6 space-x-4 px-9 mb-8 ">
+          <a href="#" class="text-white hover:text-gray-400">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="text-white hover:text-gray-400">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#" class="text-white hover:text-gray-400">
+            <i class="fab fa-tiktok"></i>
+          </a>
+          <a href="#" class="text-white hover:text-gray-400">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </footer>
+      
+</body>
+</html>
+
